@@ -2,11 +2,14 @@
   "name": "@asc-test/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "strapi-start": "cd packages/backend-cms && pnpm develop",
+    "frontend-dev": "cd packages/frontend && pnpm dev"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "20.0.12",
+    "@nx/next": "20.0.12",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
