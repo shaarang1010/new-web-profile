@@ -15,7 +15,7 @@
 
 - Create a github PAT and replace it in the `.npmrc` file. This is used for installing `ausport-ds` design system library.
 
-- You will need `pnpm` package manager. (https://pnpm.io/)[https://pnpm.io/]
+- You will need `pnpm` package manager. [https://pnpm.io/](https://pnpm.io/)
 - Then from root for your project, do `pnpm install`.
 
 - Run strapi backend `pnpm strapi-start`
